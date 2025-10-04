@@ -3,7 +3,7 @@ import { SignedIn, SignedOut, UserButton, SignInButton } from "@clerk/clerk-reac
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-6 py-4 bg-gray-900 text-white shadow-md">
+    <nav className="flex items-center justify-between px-6 py-4 backdrop-blur-3xl bg-transparent shadow-md">
       {/* Logo */}
       <div className="text-2xl font-bold">MyApp</div>
 
